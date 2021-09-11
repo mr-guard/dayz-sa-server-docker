@@ -22,7 +22,7 @@ ENV BASE_DIR /dayz
 ENV HOME ${BASE_DIR}/home
 ENV SERVER_DIR ${BASE_DIR}/server
 ENV STEAM_CMD_USER anonymous
-ENV STEAM_CMD_PASSWORD
+ENV STEAM_CMD_PASSWORD=""
 
 # base dirs
 RUN mkdir -p ${BASE_DIR} && \
